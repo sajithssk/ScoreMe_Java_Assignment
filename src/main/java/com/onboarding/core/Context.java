@@ -9,13 +9,5 @@ public class Context {
     public void put(String key, Object value) {
         data.put(key, value);
     }
-
-    public Object get(String key) {
-        return data.get(key);
-    }
-
-    public boolean containsKey(String key) {
-        return data.containsKey(key);
-    }
 }
 

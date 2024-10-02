@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProcessBuilder {
-    private List<ProcessStep> steps = new ArrayList<>();
+    private final List<ProcessStep> steps = new ArrayList<>();
 
     public ProcessBuilder addStep(ProcessStep step) {
         steps.add(step);

@@ -6,7 +6,7 @@ import com.onboarding.core.ProcessStep;
 import java.util.List;
 
 public class UserOnboardingProcess implements Process {
-    private List<ProcessStep> steps;
+    private final List<ProcessStep> steps;
 
     public UserOnboardingProcess(List<ProcessStep> steps) {
         this.steps = steps;
